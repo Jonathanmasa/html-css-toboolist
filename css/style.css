@@ -13,11 +13,11 @@ body {
 /* intestzione */
 
 .logo-head {
-    height: 70px;
+    height: 60px;
     background-color: white;
     font-size: 50px;
     padding-left: 20px;
-    line-height: 70px;
+    line-height: 60px;
     
 }
 
@@ -25,15 +25,83 @@ body {
 
 .container {
     width: 700px;
-    height: 450px;
+    height: 490px;
     background-color: white;
     margin-top: 5%;
     margin-left: 20%;
     margin-right: 20%;
+    border-radius: 2%;
 }
 
-/* contenuto layout */
+/* add layout */
 
-{
-    
+.aggiungi {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    border-radius: 15%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+
+.add-task {
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(80, 202, 233);
+
+}
+
+.add-section {
+    margin-left: 10px;
+    color: gray;
+    background-color: white;
+    border: 1px solid black;
+
+}
+
+/* section layout */
+
+section {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+
+.titolo-layout {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div {
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parole-chiave {
+    margin-left: 10px;
+    padding: 5px;
+    background-color: rgb(80, 202, 233);
+    border-radius: 15px;
+    color: white;
+    font-size: 10px;
+
+}
+
+.viola {
+    background-color: violet;
+}
+
+.verde {
+    background-color: green;
+}
+
+.arancione {
+    background-color: orange;
+}
+
+.rosa {
+    background-color: pink;
 }
