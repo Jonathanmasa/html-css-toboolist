@@ -15,21 +15,23 @@ body {
 .logo-head {
     height: 60px;
     background-color: white;
-    font-size: 50px;
     padding-left: 20px;
-    line-height: 60px;
+    line-height: 100%;
     
+}
+
+.first-title {
+    font-size: 50px;
+    line-height: 100%;
+
 }
 
 /* layout main */
 
 .container {
-    width: 700px;
-    height: 490px;
+    width: 70%;
     background-color: white;
-    margin-top: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: 40px auto;
     border-radius: 2%;
 }
 
@@ -65,7 +67,7 @@ body {
 
 section {
     margin-left: 50px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -84,21 +86,21 @@ div {
 .spunta-corretta::before {
     content: "\2713";
     color: green;
-    border: 3px solid green;
-    border-radius: 60%;
+    border: 2px solid green;
+    border-radius: 50%;
     margin-right: 5px;
-
+    font-size: 14px;
+    padding: 1px;
 }
 
 .spunta-negativa::before {
     content: "\2715";
     color: red;
-    border: 3px solid red;
-    border-radius: 60%;
+    border: 2px solid red;
+    border-radius: 50%;
     margin-right: 5px;
     font-size: 14px;
     padding: 1px;
-    
 
 }
 
